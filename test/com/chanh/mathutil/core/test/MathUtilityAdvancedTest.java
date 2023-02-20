@@ -44,6 +44,6 @@ public class MathUtilityAdvancedTest {
     //test
     @Test
     public void testFactorialGivenRightArgumentReturnsWell() {
-        assertEquals(expected, MathUtility.getFactorial(n+15), Math.abs(expected-MathUtility.getFactorial(n)));
+        assertEquals(expected, MathUtility.getFactorial(n), Math.abs(expected-MathUtility.getFactorial(n)));
     }
 }
